@@ -1,0 +1,316 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+body a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top:0px;
+    width: 100vw;
+    background-image: url(img/m39wpdk8.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50%;
+}
+.header_burger_btn{
+    margin-top: 85px;
+
+    width: 80px;
+    height: 80px;
+    border: none;
+    background-color: #555555;
+}
+.mainHeader{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+#logoImg{
+    margin-top: 1vw;
+    width: 250px;
+}
+.contacts{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    height: 2%;
+    margin-top: 5%;
+    padding-left: 7%;
+}
+.logo{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 75px;
+    color: #fff;
+    margin-left:3%;
+}
+.callBtn{
+    color: #fff;
+    background-color: #FF2400;
+    border: none;
+    border-radius: 10px;
+    width: 10%;
+    height: 20%;
+    font-size: 20px;
+    margin-top: 4.5%;
+    cursor: pointer;
+    margin-left: 3%;
+}
+.newMenuText{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    width: 100%;
+}
+.menu{
+    padding-left: 5%;
+    margin-left: 3%;
+}
+.menukz{
+    margin-left: 40%;
+}
+.pText{
+    margin-top: 10%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+#pMenu{
+    margin-top: 20%;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 65px;
+    color: #000;
+    text-align: center;
+}
+#pSushi{
+    width: 100vw;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+}
+.deliverys{
+    margin: 5% 0 5% 0;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.delivery{
+    display: flex;
+    flex-direction: column;
+}
+.delivery p{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #000;
+    width: 100%;
+    text-align: center;
+}
+.delivery img{
+    width: 30%;
+    padding-left: 35%;
+}
+#fastDelivery{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #000;
+    width: 100%;
+    text-align: center;
+}
+.fastDelivery{
+    margin-top: 10%;
+}
+.lastDiv p{
+    margin: 0%;
+    padding-top: 100px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.bgLastDiv{
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width: 1440px) and (max-width: 1515px){
+    .contacts{
+        padding-left: 2%;
+        font-size: 25px;
+        margin-top: 7%;
+    }
+    .callBtn{
+        margin-top: 6.6%;
+    }
+    .menukz{
+        margin-left: 20%;
+    }
+}
+
+@media(min-width: 1300px) and (max-width: 1440px){
+    
+    #logoImg{
+        width: 220px;
+    }
+    .logo{
+        font-size: 70px;
+    }
+    .menu{
+        top: 5%;
+    }
+}
+
+
+@media(min-width: 1050px) and (max-width: 1300px) {
+    #logoImg {
+        margin-top: 1vw;
+        width: 200px;
+    }
+    .logo{
+        font-size: 55px;
+    }
+    .contacts{
+        font-size: 20px;
+        margin-top: 6%;
+        padding-left: 4%;
+    }
+    
+  }
+  @media(min-width: 980px) and (max-width: 1050px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .pizzas{
+        margin-top: 12%;
+    }
+    .callBtn{
+        margin-top: 5.3%;
+        margin-left: 1%;
+    }
+    #logoImg{
+        width: 150px;
+    }   
+    
+.logo{
+    margin-top: 4%;
+    margin-left: 1%;
+    font-size: 45px;
+}
+#logoImg{
+    width: 200px;
+}
+.newMenuText{
+    font-size: 40px;
+    margin-top: 15%;
+
+}
+  }
+
+  @media(min-width: 861px) and (max-width: 1050px){
+    #pMenu {
+        margin-top: 40%;}
+  }
+  @media(min-width: 665px) and (max-width: 861px){
+    #logoImg {
+        width: 150px;
+    }
+    .logo {
+        margin-top: 4%;
+        margin-left: 1%;
+        font-size: 35px;
+    }
+    .contacts {
+        padding-left: 3%;
+        font-size: 15px;
+        margin-top: 6%;
+    }
+    .callBtn {
+        margin-top: 5.3%;
+        margin-left: 5%;
+    }
+    
+  }
+  @media(min-width: 425px) and (max-width: 665px){
+    .sushiSets {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    #logoImg {
+        width: 110px;
+    }
+    .logo {
+        margin-top: 4%;
+        margin-left: 4%;
+        font-size: 25px;
+    }
+    .contacts {
+        padding-left: 6%;
+        font-size: 10px;
+        margin-top: 6%;
+    }
+    .callBtn {
+        margin-top: 5%;
+        margin-left: 5%;
+        text-align: center;
+    }
+    
+    .newMenuText{
+    font-size: 30px;
+    margin-top: 20%;
+  }
+  #pMenu{
+    font-size: 50px;
+  }
+  #pSushi{
+    font-size: 30px;
+  }
+  .pizzas {
+    margin-top: 15%;}
+}
